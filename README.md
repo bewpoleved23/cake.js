@@ -1,0 +1,2 @@
+# cake.js
+component library
