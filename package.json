@@ -1,0 +1,31 @@
+{
+  "name": "cake",
+  "version": "1.0.0",
+  "description": "component library",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "parcel watch",
+    "build": "parcel build src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cedrick1227/cake.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cedrick1227/cake.js/issues"
+  },
+  "homepage": "https://github.com/cedrick1227/cake.js#readme",
+  "source": "src/index.ts",
+  "main": "dist/main.js",
+  "types": "dist/types.d.ts",
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.1",
+    "parcel": "^2.0.1"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
+}
